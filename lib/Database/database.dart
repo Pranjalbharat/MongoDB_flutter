@@ -4,7 +4,9 @@ import 'package:mongo_dart/mongo_dart.dart';
 import 'package:mongodb_flutter/Pages/user.dart';
 import 'package:mongodb_flutter/Database/constant.dart';
 class MongoDatabase{
-static var db,userCollection;
+  static var db,userCollection;
+
+// static var db,userCollection;
 
 //for establishing connection
   static connect() async{
